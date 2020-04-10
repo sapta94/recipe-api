@@ -24,7 +24,7 @@ class UserAdmin(BaseUserAdmin):
         }),
         (_('Important Dates'),{
             "fields":(
-                'last login',
+                'last_login',
             )
         })
     )
